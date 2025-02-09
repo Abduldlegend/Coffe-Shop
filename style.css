@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5deb3;
+}
+.container{
+    width: 90%;
+    height: auto;
+    margin: 55px auto 30px auto;
+}
+.hero-header{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(180deg,
+                                                rgba(0,0,0,0.4) 0%,
+                                                rgba(0,0,0,0.8) 100%),
+                                                url("Media/f4b468c720a97521602be6095de1abec.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.header{
+    width: 90%;
+    height: 20%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    width: 30%;
+    height: 50%;
+    margin-top: 15px;
+}
+#logo> a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+.menus{
+    width: 50%;
+    height: 50%;
+    margin: 15px 10px 0 10px;
+}
+.menus > ul li{
+    display: inline-block;
+    margin: 0 25px;
+}
+ul li > a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#search-bar{
+    width: 20%;
+    height: 50%;
+}
+#search-bar > i{
+    color: white;
+    font-size: 1.2em;
+    margin: 12px 0 0 90%;
+}
+.hero-text{
+    width: 85%;
+    height: 60%;
+    margin: auto;
+}
+.hero-text > h1,h2,button{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5%;
+}
+.hero-text > h2{
+    margin-top: 65px;
+}
+.hero-text > button{
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+}
+.hero-text > button > a{
+    color: rgb(48, 25, 25);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* DESCRIPTION OF ICONS SECTION STARTS HERE!!! */
+
+.decription-in-icons{
+    width: 50%;
+    height: 180px;
+    margin: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.decription-in-icons > div > i{
+    color: rgb(48, 25, 25);
+    font-size: 3em;
+    margin-left: 18%;
+    margin-bottom: 10px;
+}
+.decription-in-icons > #desert > i{
+    margin-left: 0;
+}
+
+/* COFFEE-DESSERT SECTION STARTS HERE!!! */
+
+.coffe-desert-section{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    color: rgb(48, 25, 25);
+}
+.special-coffee > h2{
+    width: 97%;
+    margin: 0px auto 30px auto;
+    text-align: center;
+    color: rgb(48, 25, 25);
+    position: relative;
+    top: 40px;
+}
+.dessert-special{
+    position: relative;
+    bottom: 40px;
+    margin-top: 30px;
+}
+.coffee-cds{
+    width: 97%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.coffee-card{
+    width: 245px;
+    height: 380px;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5deb3;
+    border-radius: 6px;
+}
+.card-img-1{
+    width: 93%;
+    height: 75%;
+    margin: 3% auto 0 auto;
+    border-radius: 6px;
+    background-image: url("media/6e045a7b140c82278310bdc2a2d029ab.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.second{
+    background-image: url("media/e71e4eb627718697651efafef4d18ed0.jpg");
+}
+.third{
+    background-image: url("media/804f2066d4f37e571ac76331e58406af.jpg");
+}
+.fourth{
+    background-image: url("media/7934b5951f217ce0bd869ec3926cc80a.jpg");
+}
+.derssert-one{
+    background-image: url("media/1d1d00aa4ffc4b0e6dfd074159c7fd39.jpg");
+}
+.derssert-two{
+    background-image: url("media/ace102e8d10d1ff0ddc9567927af0694.jpg");
+}
+.derssert-three{
+    background-image: url("media/b5ff8a32f929f70e6807dbbf9cfe885a.jpg");
+}
+.derssert-four{
+    background-image: url("media/93f517fe56f07003891be7929e5b511f.jpg");
+}
+.card > i{
+    margin-top: 4%;
+    margin-left: 85%;
+    color: rgb(48, 25, 25);
+}
+.price-tag{
+    width: 93%;
+    height: auto;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.coffee-card > h3, .paragraph{
+    margin: 3px 2% 5px 4%;
+}
+.paragraph{
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+.price-tag > button{
+    padding: 5px 7px 5px 7px ;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(48, 25, 25);
+}
+.price-tag > button >a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* End of section Three, and Section Four(COFFEE BEANS SECTION) starts.*/
+
+.coffee-beans-section{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(180deg,
+                                                rgba(0,0,0,0.4) 0%,
+                                                rgba(0,0,0,0.8) 100%),
+                                                url("media/2148336702.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+.coffee-beans-section > h1{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    color: white;
+}
+.coffee-beans-section > button{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    padding: 8px 6px;
+    border: none;
+    border-radius: 15px;
+    background-color: #f0edd1;
+}
+.coffee-beans-section > button > a{
+    color: rgb(48, 25, 25);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* TESTIMONY SECTION STARTS HERE!!! */
+
+.testimony-section{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.testimony-content{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding-top: 45px;
+}
+.testimony-content > h4{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+}
+.testimony-content > h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.testimony-cooment-card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.t-card{
+    width: 400px;
+    height: 200px;
+    background-color: #f5deb3;
+    border: none;
+    border-radius: 12px;
+    margin: 25px 12px 25px 12px;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.person-1{
+    margin: 15px 8px 15px 20px;
+    border: 4px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.t-card >h5{
+    margin-top: 20px;
+}
+.t-card >p{
+    clear: right;
+}
+.t-card > span{
+    margin-top: 0;
+    margin-left: 35%;
+    color: goldenrod;
+    font-size: 0.7em;
+    position: absolute;
+    top: 25px;
+    right: 10%;
+}
+.comment{
+    font-size: 0.9em;
+    width: 90%;
+    height: auto;
+    margin: 25px auto 0 auto;
+}
+.lot-more{
+    width: 80%;
+    height: 50px;
+    margin: 0 auto 0 auto;
+}
+.lot-more > i{
+    color: gray;
+    font-size: 3em;
+    margin-left: 45%;
+}
+
+/* OFFER SECTION STARTS HERE!!!!!*/
+
+.offer-section{
+    width: 100%;
+    height: 300px;
+    background-image: url("media/92507ca6291ff36736e3af6465a247be.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.offer-content{
+    width: 70%;
+    height: 50%;
+}
+.offer-content > h3,#last-paragraph{
+    color: rgb(48, 25, 25);
+    text-align: center;
+}
+.offer-content > #last-paragraph{
+    font-size: 0.8em;
+}
+.search-buttun{
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    padding: 10px 45px;
+
+    border: none;
+    border-radius: 20px;
+}
+.search-buttun > button{
+    padding: 10px 35px;
+    background-color: rgb(48, 25, 25);
+    border: none;
+    border-radius: 20px;
+}
+.search-buttun > button > a{
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(48, 25, 25);
+}
+.footer-card{
+    width: 215px;
+    height: 220px;
+    margin: 5px;
+}
+.footer-card > h2{
+    letter-spacing: 3px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15%;
+}
+.footer-card > h3{
+    color: white;
+    margin-top: 15%;
+}
+.footer-card > p{
+    color: white;
+    margin-top: 10%;
+}
+.footer-card > i{
+    color: white;
+    margin-top: 10%;
+    margin-left: 8px;
+}
