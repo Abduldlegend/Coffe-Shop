@@ -377,7 +377,6 @@ hr{
 }
 input{
     padding: 10px 45px;
-
     border: none;
     border-radius: 20px;
 }
@@ -541,6 +540,7 @@ input{
     /* OFFER SECTION STARTS HERE!!!!!*/
 
     .search-buttun{
+        width: 100%;
         flex-direction: column;
     }
     input{
