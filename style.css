@@ -46,6 +46,9 @@ body{
     font-size: 1.2em;
     letter-spacing: 2px;
 }
+#close{
+    display: none;
+}
 .menus{
     width: 50%;
     height: 50%;
@@ -437,7 +440,7 @@ input{
 
 /* MOBILE DEVICES (Between 480px and 768px) STYLE. */
 
-@media (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .container{
         width: 100%;
         margin: 0 auto 30px auto;
