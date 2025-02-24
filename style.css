@@ -89,7 +89,7 @@ ul li > a{
     margin-top: 20px;
     padding: 10px 25px;
     background-color: white;
-    border: none;
+    border: 3px solid rgb(48, 25, 25);
     border-radius: 20px;
 }
 .hero-text > button > a{
@@ -169,7 +169,7 @@ hr{
     width: 93%;
     height: 75%;
     margin: 3% auto 0 auto;
-    border-radius: 6px;
+    border-radius: 2px;
     background-image: url("media/6e045a7b140c82278310bdc2a2d029ab.jpg");
     background-position: center;
     background-size: cover;
@@ -239,18 +239,21 @@ hr{
     background-position: center;
     background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .coffee-beans-section > h1{
-    position: absolute;
-    top: 25%;
-    left: 35%;
+    /* color: white;
+    padding-left: 34.8%;
+    padding-top: 5%; */
     color: white;
+    margin-bottom: 1.5rem;
 }
 .coffee-beans-section > button{
-    position: absolute;
-    top: 60%;
-    left: 30%;
+    margin: 0 8% 0 0;
     padding: 8px 6px;
     border: none;
     border-radius: 15px;
@@ -295,6 +298,7 @@ hr{
 }
 .t-card{
     width: 400px;
+    min-width: 300px;
     height: 200px;
     background-color: #f5deb3;
     border: none;
@@ -358,6 +362,7 @@ hr{
 .offer-content{
     width: 70%;
     height: 50%;
+    margin: auto;
 }
 .offer-content > h3,#last-paragraph{
     color: rgb(48, 25, 25);
@@ -488,7 +493,7 @@ input{
         font-size: 1.8rem;
         color: white;
         cursor: pointer;
-        margin: 0 20px 0 0;
+        margin: 0 0 0 40%;
         text-align: center;
     }
     #menu.active{
@@ -496,6 +501,7 @@ input{
     }
     #search-bar > i{
         margin: 12px 0 0 0;
+        
     }
 
     .hero-text > h1,h2,button{
@@ -533,12 +539,16 @@ input{
     /*COFFEE BEANS SECTION*/
 
     .coffee-beans-section > h1{
+        /* padding-left: 0;
+        padding-top: 15%; */
         text-align: center;
-        left: 20%;
+        
     }
 
     .coffee-beans-section > button{
-        left: 35%;
+        /* display: flex;
+        justify-content: center; */
+        margin: 0;
     }
 
     /* OFFER SECTION STARTS HERE!!!!!*/
@@ -556,14 +566,14 @@ input{
 
     /* FOOTER */
     .footer-card{
-        width: 180px;
+        width: 150px;
         height: 200px;
         text-align: center;
     }
 }
 
 /* TABLET DEVICES (Between 768px and 912px) STYLE. */
-@media screen and (min-width:768px) and (max-width:912px) {
+@media screen and (min-width:768px) and (max-width:1280px) {
         .menus{
             display: none;
             position: absolute;
@@ -599,10 +609,14 @@ input{
             font-size: 1.8rem;
             color: white;
             cursor: pointer;
+            margin-left: 60%;
             
             text-align: right;
         }
         #menu.active{
             display: block;
+    }
+    .coffee-beans-section > button{
+        margin: 0 17% 0 0;
     }
 }
